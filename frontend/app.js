@@ -21,7 +21,7 @@ document.getElementById('book-form')
 
         const ui = new UI();
         ui.addANewBook(formData);
-        ui.renderMessage('New Book Added', 'succes', 3000);
+        ui.renderMessage('New Book Added', 'success', 3000);
 
         e.preventDefault();
     });
